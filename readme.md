@@ -1,83 +1,99 @@
-![ChatGPT Image Jun 29, 2025, 01_56_00 PM](https://github.com/user-attachments/assets/4db65076-a432-4f4b-9487-a51662768aaa)
+
+<img width="1536" height="1024" alt="ChatGPT Image Aug 10, 2025, 04_10_30 PM (1)" src="https://github.com/user-attachments/assets/7c5ba3b6-5153-48f6-bed5-2e2321123b01" />
 
 
 
-# 🎰 شانس‌متر امجدی (SHMA1)
-> نسخه ۱.۰
-
-**شانس‌متر امجدی** یا به اختصار **SHMA1** یک بازی ساده، طنزآمیز و بر پایه‌ی شانس است که با گرفتن اطلاعاتی از کاربر، یک "بخت" کاملاً تصادفی را در قالب یک پیام جالب و فینگلیش نمایش می‌دهد.
+# 🎮 بازی دوز شیک و ساده ASD 🏆
 
 ---
 
-## 🛠️ مشخصات
-
-- **سازنده:** علیرضا امجدی  
-- **سال ساخت:** ۲۰۲۴  
-- **محیط توسعه:** Python (در IDE هایی مانند PyCharm, VSCode, یا IDLE)  
-- **زبان برنامه:** فینگلیش (فارسی با حروف انگلیسی)  
-- **قابل اجرا در:** CMD / ترمینال
+## 🎯 چی کار می‌کنه؟  
+دو بازیکن نوبتی روی یک صفحه ۳×۳ بازی دوز (Tic-Tac-Toe) بازی می‌کنن.  
+بازی بین ۳ تا ۵ راند برگزار می‌شه و بعد برنده کلی مشخص می‌شه.
 
 ---
 
-## 🎮 راهنمای بازی
+## 🚀 چطوری اجراش کنیم؟  
+1. مطمئن باش پایتون ۳ نصب داری  
+2. این فایل رو ذخیره کن: `asd_game.py`  
+3. تو ترمینال یا CMD برو توی پوشه‌ای که فایل هست  
+4. اینو تایپ کن:  
 
-۱. فایل برنامه را با پایتون اجرا کنید.  
-۲. پس از اجرای برنامه، یک منوی اصلی ظاهر می‌شود شامل سه گزینه:
-   - `1 - Emtehan rooz` → شروع بازی
-   - `2 - Darbare` → نمایش اطلاعات برنامه و سازنده
-   - `3 - Khorooj` → خروج کامل از برنامه
-۳. با انتخاب گزینه ۱، از شما سوالاتی پرسیده می‌شود:
-   - نام، نام خانوادگی، روز هفته، و ماه فعلی
-۴. برنامه به‌صورت کاملاً تصادفی یک "بخت" به شما نمایش می‌دهد (از میان ۵۰ بخت مختلف و جالب).
-۵. با زدن Enter به منو باز می‌گردید.
+python asd_game.py
+اسم بازیکن‌ها رو بده و تعداد راند (۳ تا ۵) رو وارد کن
 
----
+حالا بازی شروع می‌شه، از عددهای ۱ تا ۹ برای حرکت استفاده کن
 
-## 📌 نکات تکمیلی
+🕹️ قوانین کوتاه
+بازیکن اول = X
 
-- این بازی صرفاً جهت سرگرمی ساخته شده و هیچ پیش‌بینی واقعی ارائه نمی‌دهد 😄  
-- اجرا در محیط ترمینال باعث زیبایی بیشتر تجربه می‌شود.
-- دارای طراحی کادری برای نمایش نتایج و ظاهر مینیمال ولی جذاب است.
+بازیکن دوم = O
 
----
+هر بازیکن نوبتی یک خانه خالی انتخاب می‌کنه
 
-# 🎰 Shans Meter Amjadi (SHMA1)
-> Version 1.0
+سه تا X یا O پشت سر هم (سطر، ستون یا قطر) = برنده اون راند
 
-**Shans Meter Amjadi**, also known as **SHMA1**, is a simple and humorous Python-based mini-game that takes basic input from the user and randomly generates a playful "fate" message in Finglish (Persian with English characters).
+در صورت پر شدن همه خانه‌ها بدون برنده، راند مساوی می‌شه
 
----
+آخر بازی برنده کلی اعلام می‌شه
 
-## 🛠️ Info
+💾 ویژگی‌ها
+بازی در CMD/ترمینال اجرا می‌شه
 
-- **Creator:** Alireza Amjadi  
-- **Year:** 2024  
-- **IDE Used:** Python-based IDEs like PyCharm, VSCode, or IDLE  
-- **Language:** Finglish  
-- **Runs On:** CMD / Terminal
+ذخیره آمار بازی به صورت فایل JSON
 
----
+امکان شروع دوباره یا خروج با ذخیره آمار
 
-## 🎮 How to Play
+طراحی ساده و شیک
 
-1. Run the program using Python 3.x.  
-2. The main menu includes three options:
-   - `1 - Emtehan rooz` → Start the day test
-   - `2 - Darbare` → About the app
-   - `3 - Khorooj` → Exit the program
-3. Choosing option 1 asks you for:
-   - First name, Last name, Day of week, and Current month
-4. The program will randomly assign you one of 50 possible humorous “fates.”
-5. Press Enter to return to the menu and try again.
+📣 سازنده
+Alireza Amjadi | ۲۰۲۵
 
----
 
-## 📌 Notes
+ASD (Amjadi-style Doze) 🎮
+What is it?
+A simple turn-based Tic-Tac-Toe game for two players on a 3x3 board.
+Play 3 to 5 rounds and see who wins overall.
 
-- This game is purely for fun and has no real predictive purpose 😄  
-- Best experienced in a terminal environment.
-- Includes a box-style UI for clean and simple output.
+How to run it?
+Make sure Python 3 is installed
 
----
+Save the file as asd_game.py
 
-**Enjoy testing your fate! Good luck! 🍀**
+Open terminal or CMD and go to the file folder
+
+Run:
+
+bash
+Copy
+Edit
+python asd_game.py
+Enter player names and number of rounds (3 to 5)
+
+Use numbers 1 to 9 to place your mark
+
+Rules
+Player 1 = X
+
+Player 2 = O
+
+Take turns placing marks on empty squares
+
+3 marks in a row/column/diagonal wins the round
+
+Draw if board full without winner
+
+Final winner announced after all rounds
+
+Features
+Runs in CMD/terminal
+
+Saves game stats as JSON
+
+Option to replay or exit with saving stats
+
+Simple, clean interface
+
+Creator
+Alireza Amjadi | 2025
+
